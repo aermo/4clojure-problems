@@ -20,4 +20,4 @@
     
 (defn -main
   [& args]
-  (println "Your best hand is " (best-hand args)))
+  (println "Your best hand is" (name (best-hand args))))
