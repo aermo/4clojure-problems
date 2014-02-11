@@ -24,47 +24,47 @@ Following on from Recognize Playing Cards, determine the best poker hand that ca
 
     $ java -jar best-hand-0.1.0-standalone.jar c1 c2 c3 c4 c5
 
-where ci are distinct cards with suit and rank
-  suit: H, C, D or S
-        H: hearts, C: clubs, D: diamonds and S: spades
-  rank: 2, 3, 4, 5, 6, 7, 8, 9, T, J, Q, K or A
+where `ci` are distinct cards with suit and rank
+  suit: `H`, `C`, `D` or `S`
+        `H`: hearts, `C`: clubs, `D`: diamonds and `S`: spades
+  rank: `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `T`, `J`, `Q`, `K` or `A`
 
 ## Examples
 
-java -jar best-hand-0.1.0-standalone.jar HA D2 H3 C9 DJ
-> Your best hand is high-card
+    $ java -jar best-hand-0.1.0-standalone.jar HA D2 H3 C9 DJ
+     Your best hand is high-card
 
 
-java -jar best-hand-0.1.0-standalone.jar HA HQ SJ DA HT
-> Your best hand is pair
+    $ java -jar best-hand-0.1.0-standalone.jar HA HQ SJ DA HT
+     Your best hand is pair
 
 
-java -jar best-hand-0.1.0-standalone.jar HA DA HQ SQ HT
-> Your best hand is two-pair
+    $ java -jar best-hand-0.1.0-standalone.jar HA DA HQ SQ HT
+     Your best hand is two-pair
 
 
-java -jar best-hand-0.1.0-standalone.jar HA DA CA HJ HT
-> Your best hand is three-of-a-kind
+    $ java -jar best-hand-0.1.0-standalone.jar HA DA CA HJ HT
+     Your best hand is three-of-a-kind
 
 
-java -jar best-hand-0.1.0-standalone.jar HA DK HQ HJ HT
-> Your best hand is straight
+    $ java -jar best-hand-0.1.0-standalone.jar HA DK HQ HJ HT
+     Your best hand is straight
 
 
-java -jar best-hand-0.1.0-standalone.jar HA H2 S3 D4 C5
-> Your best hand is straight
+    $ java -jar best-hand-0.1.0-standalone.jar HA H2 S3 D4 C5
+     Your best hand is straight
 
 
-java -jar best-hand-0.1.0-standalone.jar HA DA CA HJ DJ
-> Your best hand is full-house
+    $ java -jar best-hand-0.1.0-standalone.jar HA DA CA HJ DJ
+     Your best hand is full-house
 
 
-java -jar best-hand-0.1.0-standalone.jar HA DA CA SA DJ
-> Your best hand is four-of-a-kind
+    $ java -jar best-hand-0.1.0-standalone.jar HA DA CA SA DJ
+     Your best hand is four-of-a-kind
 
 
-java -jar best-hand-0.1.0-standalone.jar HA HK HQ HJ HT
-> Your best hand is straight-flush
+    $ java -jar best-hand-0.1.0-standalone.jar HA HK HQ HJ HT
+     Your best hand is straight-flush
 
 
 ## License
