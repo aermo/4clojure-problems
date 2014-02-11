@@ -18,43 +18,43 @@ where k and n are integers: the start and the end.
 
 ## Test examples
 
-java -jar squares-squared-0.1.0-standalone.jar 2 2
-> "2"
+    $ java -jar squares-squared-0.1.0-standalone.jar 2 2
+     "2"
 
 
-java -jar squares-squared-0.1.0-standalone.jar 2 4
-> " 2 "
-> "* 4"
-> " * "
+    $ java -jar squares-squared-0.1.0-standalone.jar 2 4
+     " 2 "
+     "* 4"
+     " * "
 
 
-java -jar squares-squared-0.1.0-standalone.jar 3 81
-> " 3 "
-> "1 9"
-> " 8 "
+    $ java -jar squares-squared-0.1.0-standalone.jar 3 81
+     " 3 "
+     "1 9"
+     " 8 "
 
 
-java -jar squares-squared-0.1.0-standalone.jar 4 20
-> " 4 "
-> "* 1"
-> " 6 "
+    $ java -jar squares-squared-0.1.0-standalone.jar 4 20
+     " 4 "
+     "* 1"
+     " 6 "
 
-java -jar squares-squared-0.1.0-standalone.jar 2 256
-> "  6  "
-> " 5 * "
-> "2 2 *"
-> " 6 4 "
-> "  1  "
+    $ java -jar squares-squared-0.1.0-standalone.jar 2 256
+     "  6  "
+     " 5 * "
+     "2 2 *"
+     " 6 4 "
+     "  1  "
 
 
-java -jar squares-squared-0.1.0-standalone.jar 10 10000
-> "   0   "
-> "  1 0  "
-> " 0 1 0 "
-> "* 0 0 0"
-> " * 1 * "
-> "  * *  "
-> "   *   "
+    $ java -jar squares-squared-0.1.0-standalone.jar 10 10000
+     "   0   "
+     "  1 0  "
+     " 0 1 0 "
+     "* 0 0 0"
+     " * 1 * "
+     "  * *  "
+     "   *   "
 
 ## License
 
