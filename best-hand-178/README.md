@@ -25,8 +25,11 @@ Following on from Recognize Playing Cards, determine the best poker hand that ca
     $ java -jar best-hand-0.1.0-standalone.jar c1 c2 c3 c4 c5
 
 where `ci` are distinct cards with suit and rank
+
   suit: `H`, `C`, `D` or `S`
+  
         `H`: hearts, `C`: clubs, `D`: diamonds and `S`: spades
+        
   rank: `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `T`, `J`, `Q`, `K` or `A`
 
 ## Examples
